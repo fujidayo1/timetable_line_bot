@@ -42,7 +42,7 @@ func main() {
 		3限:電子情報システム工学実験演習B
 		4限:電子情報誌ステう工学実験演習B`
 	default:
-		result := ``
+		result := ”
 	}
 
 	message := linebot.NewTextMessage(result)
