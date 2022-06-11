@@ -21,6 +21,10 @@ func main() {
 	switch date {
 	case 0:
 	}
+
+	result := `test
+message`
+
 	message := linebot.NewTextMessage(result)
 	if _, err := bot.BroadcastMessage(message).Do(); err != nil {
 		log.Fatal(err)
