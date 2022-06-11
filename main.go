@@ -17,7 +17,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	result := ``
+	result := `err`
 
 	date := time.Now().Weekday()
 	switch date {
