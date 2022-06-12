@@ -24,7 +24,7 @@ func main() {
 	date := time.Now()
 	switch date.Weekday() {
 	case 0:
-		result = `1限：ネットワーク技術
+		result = `1限：ネットワーク技術I
 2限：人文社会科学群
 3限：情報科学`
 	case 1:
@@ -44,7 +44,7 @@ func main() {
 		result = `1限:数値計算法
 2限：アジア文学論
 3限：電子情報システム工学実験演習B
-4限：電子情報誌ステう工学実験演習B`
+4限：電子情報システム工学実験演習B`
 	default:
 		result = ``
 	}
