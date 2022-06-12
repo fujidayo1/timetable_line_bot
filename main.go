@@ -25,8 +25,8 @@ func main() {
 	switch date.Weekday() {
 	case 0:
 		result = `1限:ネットワーク技術
-		2限:人文社会科学群
-		3限:情報科学`
+2限:人文社会科学群
+3限:情報科学`
 	case 1:
 		result = `1限:応用数学I
 		2限:制御理論I
